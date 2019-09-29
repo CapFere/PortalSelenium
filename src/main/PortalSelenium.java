@@ -25,11 +25,11 @@ public class PortalSelenium {
         driver.get("https://portal.aait.edu.et/");
 
         //Find the username input filed and seed it your username
-        driver.findElement(By.id("UserName")).sendKeys("ATR/3219/09");
+        driver.findElement(By.id("UserName")).sendKeys("your-id");
 
         //Find the password input filed and seed it your password
         WebElement password = driver.findElement(By.id("Password"));
-        password.sendKeys("3869");
+        password.sendKeys("your-password");
 
         //Submit the form inorder to login
         password.submit();
